@@ -1,0 +1,92 @@
+modules - 
+
+static - 
+
+1. header
+2. footer
+
+ng generate module static --routing
+ng g c static/header
+ng g c static/footer
+
+shared - 
+
+1. addupdatecartbtn
+2. fileupload
+
+ng g m shared --routing
+ng g c shared/addupdatecartbtn
+ng g c shared/fileupload
+
+product - 
+
+1. product
+
+ng g m  product --routing
+ng g c product/details
+
+search - 
+
+1. search
+2. btnpagination
+
+ng g m search --routing
+ng g c search/products
+ng g c search/btnpagination
+
+user - 
+
+1. registration
+2. login
+
+ng g m user --routing
+ng g c user/registration
+ng g c user/login
+
+customer - 
+
+1. myaccount
+2. myorders
+
+ng g m customer --routing
+ng g c customer/myaccount
+ng g c customer/myorders 
+
+
+order - 
+
+1. cart
+2. order-fail
+3. order-success
+
+ng g m order --routing
+ng g c order/cart
+ng g c order/order-fail
+ng g c order/order-success
+
+
+
+Following code is added in - add-routing.module
+
+const routes: Routes = [
+  {
+    path: 'product',
+    loadChildren: () => import('./product/product.module').then(mod => mod.ProductModule)
+  }
+];
+
+**********
+
+Following code is added in - product-routing.module
+
+
+import { DetailsComponent } from './details/details.component';
+
+const routes: Routes = [
+  {
+    path: '',
+    component: DetailsComponent
+  }
+];
+
+

@@ -1,13 +1,21 @@
-modules - 
+APP >> SRC >>
+
+1. home
+
+ng g c home
 
 static - 
 
 1. header
 2. footer
 
-ng generate module static --routing
 ng g c static/header
 ng g c static/footer
+
+
+
+
+MODULES - 
 
 shared - 
 

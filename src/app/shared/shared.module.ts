@@ -11,6 +11,7 @@ import { FileuploadComponent } from './fileupload/fileupload.component';
   imports: [
     CommonModule,
     SharedRoutingModule
-  ]
+  ],
+  exports: [AddupdatecartbtnComponent,FileuploadComponent]
 })
 export class SharedModule { }

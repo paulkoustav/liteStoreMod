@@ -35,12 +35,17 @@ ng g c product/details
 
 search - 
 
-1. search
-2. btnpagination
+1. searchdata
 
 ng g m search --routing
-ng g c search/products
-ng g c search/btnpagination
+ng g c search/searchdata --module search.module
+
+pagination - 
+
+1. btnpagination
+
+ng g m pagination --routing
+ng g c pagination/btnpagination --module pagination.module
 
 user - 
 

@@ -136,6 +136,9 @@ ng g s services/datasharing
 
 (providedIn: 'root')
 
+5. auth
+ng g s user/auth
+
 pipe - 
 
 1. NetPayPipe

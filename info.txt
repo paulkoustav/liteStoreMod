@@ -102,6 +102,9 @@ const routes: Routes = [
   }
 ];
 
+git clone https://github.com/paulkoustav/liteStoreMod.git
+git push -u origin https://github.com/paulkoustav/liteStoreMod.git
+
 git add .
 git commit -m "commit comment"
 git push -u origin master 
@@ -115,5 +118,10 @@ ng g s services/data
 
 2. user/userdata
 ng g s user/userdata
+
+(import and add to provider)
+
+3. shared/upload
+ng g s shared/upload
 
 (import and add to provider)

@@ -8,12 +8,15 @@ import { HeaderComponent } from './static/header/header.component';
 import { FooterComponent } from './static/footer/footer.component';
 import { HomeComponent } from './home/home.component';
 
+import { ProductUriPipe } from './pipes/product-uri.pipe';
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    ProductUriPipe
   ],
   imports: [
     BrowserModule,

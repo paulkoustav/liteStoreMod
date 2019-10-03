@@ -135,3 +135,11 @@ ng g s services/message
 ng g s services/datasharing
 
 (providedIn: 'root')
+
+pipe - 
+
+1. NetPayPipe
+ng g pipe order/NetPayPipe -m=order
+
+2. product-uri
+ng g pipe pipes/ng g pipe order/NetPayPipe -m=order -m=app

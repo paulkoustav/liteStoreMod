@@ -102,3 +102,13 @@ git commit -m "commit comment"
 git push -u origin master 
 enter user name
 enter password
+
+Sercices - 
+
+1. data
+ng g s services/data
+
+2. user/userdata
+ng g s user/userdata
+
+(import and add to provider)

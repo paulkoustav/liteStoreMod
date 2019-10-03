@@ -10,6 +10,9 @@ import { HomeComponent } from './home/home.component';
 
 import { ProductUriPipe } from './pipes/product-uri.pipe';
 
+import { AuthGuard } from './interfaces/auth.guard';
+import { AuthService } from './services/auth.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +25,7 @@ import { ProductUriPipe } from './pipes/product-uri.pipe';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [AuthGuard, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

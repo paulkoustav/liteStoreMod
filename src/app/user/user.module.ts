@@ -5,7 +5,6 @@ import { UserRoutingModule } from './user-routing.module';
 
 import { SharedModule } from '../shared/shared.module';
 import { UserdataService } from './userdata.service';
-import {AuthService} from './auth.service';
 
 import { RegistrationComponent } from './registration/registration.component';
 import { LoginComponent } from './login/login.component';
@@ -17,6 +16,6 @@ import { LoginComponent } from './login/login.component';
     UserRoutingModule,
     SharedModule
   ],
-  providers: [UserdataService,AuthService]
+  providers: [UserdataService]
 })
 export class UserModule { }

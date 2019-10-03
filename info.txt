@@ -137,7 +137,8 @@ ng g s services/datasharing
 (providedIn: 'root')
 
 5. auth
-ng g s user/auth
+ng g s services/auth
+
 
 pipe - 
 
@@ -146,3 +147,26 @@ ng g pipe order/NetPayPipe -m=order
 
 2. product-uri
 ng g pipe pipes/ng g pipe order/NetPayPipe -m=order -m=app
+
+
+class - 
+
+1. cart
+ng g class order/cart
+
+2. login
+ng g class user/login
+
+3. customer
+ng g class classes/customer
+
+3. address
+ng g class classes/address
+
+
+guard - 
+
+1. auth 
+ng g guard interfaces/auth
+
+i to select all / space to select then Enter

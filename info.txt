@@ -127,6 +127,11 @@ ng g s shared/upload
 (import and add to provider)
 
 4. message
-ng g s message
+ng g s services/message
+
+(providedIn: 'root')
+
+4. datasharing
+ng g s services/datasharing
 
 (providedIn: 'root')

@@ -125,3 +125,8 @@ ng g s user/userdata
 ng g s shared/upload
 
 (import and add to provider)
+
+4. message
+ng g s message
+
+(providedIn: 'root')

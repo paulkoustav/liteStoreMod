@@ -170,3 +170,8 @@ guard -
 ng g guard interfaces/auth
 
 i to select all / space to select then Enter
+
+
+service worker - 
+
+1. ng add @angular/pwa --project liteStoreMod

@@ -13,6 +13,8 @@ import { ProductUriPipe } from './pipes/product-uri.pipe';
 import { AuthGuard } from './interfaces/auth.guard';
 import { AuthService } from './services/auth.service';
 
+import {CustomPreloadingStrategy} from './customPreloading';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +27,7 @@ import { AuthService } from './services/auth.service';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [AuthGuard, AuthService],
+  providers: [CustomPreloadingStrategy,AuthGuard, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

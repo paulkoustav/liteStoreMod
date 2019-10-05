@@ -175,3 +175,20 @@ i to select all / space to select then Enter
 service worker - 
 
 1. ng add @angular/pwa --project liteStoreMod
+
+to check any dependency in modules , type as follows -
+npm list --depth=0
+
+if error occurs, update angular as Following - 
+
+npm i @angular/compiler-cli@8.2.9
+npm i @angular/compiler@8.2.9
+npm i @angular/core@8.2.9
+npm i @angular/common@8.2.9
+
+npm i @angular/forms@8.2.9
+npm i @angular/platform-browser@8.2.9
+npm i @angular/platform-browser-dynamic@8.2.9
+npm i @angular/router@8.2.9
+npm i @angular/animations@8.2.9
+

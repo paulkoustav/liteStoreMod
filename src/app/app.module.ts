@@ -14,7 +14,6 @@ import { AuthGuard } from './interfaces/auth.guard';
 import { AuthService } from './services/auth.service';
 
 import {CustomPreloadingStrategy} from './customPreloading';
-
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 

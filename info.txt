@@ -215,5 +215,9 @@ lite-server
 
 it will open the build in http://localhost:3000/
 
+go to chrome network tab and check offline for service worker test
+
+deploy angular project on github pages or netlify
+
 
 

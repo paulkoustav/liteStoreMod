@@ -192,3 +192,28 @@ npm i @angular/platform-browser-dynamic@8.2.9
 npm i @angular/router@8.2.9
 npm i @angular/animations@8.2.9
 
+now to run server for server worker - 
+
+npm install -g http-server
+ng build --prod --base-href "/liteStoreMod/"
+
+paste in htdocs of xampp and url will be like
+
+http://127.0.0.1/liteStoreMod/
+
+we have remamed the folder to liteStoreModClient for xampp
+
+or install npm lite-server
+
+npm i -g lite-server
+
+ng build --prod (no need to set base url)
+
+cd dist
+cd liteStoreMod
+lite-server
+
+it will open the build in http://localhost:3000/
+
+
+
